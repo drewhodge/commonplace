@@ -1,0 +1,69 @@
+/* ======================================================= */
+/* Filename: custom.css                                    */
+/* Purpose: Override PicoCSS framework styles.             */
+/* ======================================================= */
+
+/* Overrides for light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme=light],
+:root:not([data-theme=dark]),
+:host:not([data-theme=dark]) {
+  /* Gruvbox Light Colors */
+  --pico-background-color: #fbf1c7;
+  --pico-color: #3c3836;
+  --pico-primary: #b57614;
+  --pico-primary-hover: #9f660f;
+  --pico-primary-focus: #7c4f03;
+  --pico-muted-color: #7c6f64;
+  --pico-form-element-background-color: #f9f5d7;
+  --pico-code-background-color: #ebdbb2;
+  --pico-font-family-sans-serif: "Libertinus Sans", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
+  --pico-font-family-monospace: "Libertinus Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
+  --pico-font-family: var(--pico-font-family-sans-serif);
+}
+
+/* Note: To add or edit CSS variables for dark mode, define them twice.
+  - The first inclusion is in the @mediaquery that checks if the user
+  has dark mode enabled through their device settings with
+  'prefers-color-scheme: dark'. In this case, the dark mode styling is
+  applied to the ':root' element if there is no explicit
+  'data-theme' attribute set.
+  - The second inclusion is when you force the dark mode with
+  'data-theme="dark"'. This allows you to manually toggle between the
+  light and dark themes regardless of the user’s device settings. */
+
+/* Overrides for dark color scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]),
+  :host:not([data-theme]) {
+    --pico-background-color: #282828;
+    --pico-color: #ebdbb2;
+    --pico-primary: #fabd2f;
+    --pico-primary-hover: #d79921;
+    --pico-primary-focus: #b58900;
+    --pico-muted-color: #a89984;
+    --pico-form-element-background-color: #3c3836;
+    --pico-code-background-color: #1d2021;
+    --pico-h2-color: #b58900;
+    --pico-font-family-sans-serif: "Libertinus Sans", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
+    --pico-font-family-monospace: "Libertinus Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
+    --pico-font-family: var(--pico-font-family-sans-serif);
+  }
+}
+/* Overrides for dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme=dark] {
+    --pico-background-color: #282828;
+    --pico-color: #ebdbb2;
+    --pico-primary: #fabd2f;
+    --pico-primary-hover: #d79921;
+    --pico-primary-focus: #b58900;
+    --pico-muted-color: #a89984;
+    --pico-form-element-background-color: #3c3836;
+    --pico-code-background-color: #1d2021;
+    --pico-h2-color: #b58900;
+    --pico-font-family-sans-serif: "Libertinus Sans", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
+    --pico-font-family-monospace: "Libertinus Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
+    --pico-font-family: var(--pico-font-family-sans-serif);
+  }

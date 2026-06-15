@@ -10,13 +10,23 @@
     {% endif %}
 
     <!-- 2. Display the main Markdown content from _index.md -->
-    <div class="section-content">
-        {{ section.content | safe }}
-    </div>
+    <section class="section-list">
+        {% if section.subsections %}
+        <h2>Sub-categories</h2>
+        <ul>
+        {% for path in section.subsections %}
+            {% set subsection = get_section(path=path) %}
+            <li>
+                <a href="{{ subsection.permalink }}">
+                    {{ subsection.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
 
-    <!-- 3. Loop through and list all pages under this section -->
-    <section class="page-list">
-        <h2>Articles in this category</h2>
+        {% if section.pages %}
+        <h2>Articles</h2>
         <ul>
         {% for page in section.pages %}
             <li>
@@ -26,6 +36,7 @@
             </li>
         {% endfor %}
         </ul>
+        {% endif %}
     </section>
 </main>
 {% endblock content %}

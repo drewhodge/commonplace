@@ -1,8 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-    This site is made with Zola.
-</h1>
-<p><a href="{{ get_url(path='@/src/_index.md') }}">Pages</a>:</p>
+
+<h1>{{ section.title }}</h1>
+
+{{ section.content | safe }}
+
+<ul>
+{% for path in section.subsections %}
+    {% set s = get_section(path=path) %}
+    <li>
+        <a href="{{ s.permalink }}">{{ s.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+
 {% endblock content %}

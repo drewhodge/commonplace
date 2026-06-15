@@ -45,7 +45,12 @@
     --pico-muted-color: #a89984;
     --pico-form-element-background-color: #3c3836;
     --pico-code-background-color: #1d2021;
+    --pico-h1-color: var(--pico-primary);
     --pico-h2-color: #b58900;
+    --pico-h3-color: #b58900;
+    --pico-h4-color: #b58900;
+    --pico-h5-color: #b58900;
+    --pico-h6-color: #b58900;
     --pico-font-family-sans-serif: "Libertinus Sans", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
     --pico-font-family-monospace: "Libertinus Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
     --pico-font-family: var(--pico-font-family-sans-serif);
@@ -62,7 +67,12 @@
     --pico-muted-color: #a89984;
     --pico-form-element-background-color: #3c3836;
     --pico-code-background-color: #1d2021;
+    --pico-h1-color: var(--pico-primary);
     --pico-h2-color: #b58900;
+    --pico-h3-color: #b58900;
+    --pico-h4-color: #b58900;
+    --pico-h5-color: #b58900;
+    --pico-h6-color: #b58900;
     --pico-font-family-sans-serif: "Libertinus Sans", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
     --pico-font-family-monospace: "Libertinus Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
     --pico-font-family: var(--pico-font-family-sans-serif);

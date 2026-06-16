@@ -4,11 +4,12 @@ decription = "Overview"
 draft = false
 +++
 
-## Gudium et Spes 22
-
-From a Google search summary.
-
-_Gaudium et Spes_ 22, from the Second Vatican Council (1965), ==argues that human nature, dignity, and purpose are fully revealed only through Jesus Christ, the "Word made flesh"==. Often called a "Christocentric bombshell," it establishes that Christ is the key to understanding human identity and solving modern existential questions. 
+_Gaudium et Spes_ 22, from the Second Vatican Council (1965), argues that human
+nature, dignity, and purpose are fully revealed only through Jesus Christ, the
+"Word made flesh". Often called a "Christocentric bombshell," it establishes
+that Christ is the key to understanding human identity and solving modern
+existential questions.
+<!-- more -->
 
 ## Core Themes of GS 22
 
@@ -25,5 +26,5 @@ _Gaudium et Spes_ 22, from the Second Vatican Council (1965), ==argues that huma
 
 Pope John Paul II often highlighted this paragraph, regarding it as the essential, interpretive key to the entire document and a guide for interpreting modern existence.
 
-----------------------------
+---
 #vaticanII

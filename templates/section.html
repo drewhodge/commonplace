@@ -23,6 +23,12 @@
                 <a href="{{ page.permalink }}">
                     {{ page.title }}
                 </a>
+                {# Display the summary #}
+                 <div class="summary">
+                    {{ page.summary | safe }}
+                </div>
+                {# Optional: Add a "Read More" link #}
+                <!--<a href="{{ page.permalink }}">Read more &raquo;</a>-->
             </li>
         {% endfor %}
         </ul>

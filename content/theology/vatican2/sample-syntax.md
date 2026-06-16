@@ -1,5 +1,6 @@
 +++
 title = "Sample syntax"
+description = "Markdown syntax -- for testing."
 date = 2026-06-13
 +++
 

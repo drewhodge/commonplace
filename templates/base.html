@@ -77,6 +77,34 @@
     </head>
 
     <body>
+        <!-- Nav bar -->
+        <header class="container">
+            <nav>
+                <ul>
+                    <!-- Brand Logo / Title on the left -->
+                    <li>
+                        <a href="{{ config.base_url | safe }}" class="contrast">
+                            <strong>{{ config.title }}</strong>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <!-- Navigation links loop on the right -->
+                    {% if config.extra.menu %}
+                        {% for item in config.extra.menu %}
+                            {% set is_active = current_path == item.url %}
+                            <li>
+                                <a href="{{ get_url(path=item.url) }}"
+                                   {% if is_active %}aria-current="page"{% else %}class="secondary"{% endif %}>
+                                    {{ item.name }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+            </nav>
+        </header>
+        <!-- Page content -->
         <section class="section">
             <div class="container">
                 {% block content %} {% endblock content %}

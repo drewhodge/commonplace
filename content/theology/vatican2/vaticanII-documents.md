@@ -37,13 +37,13 @@ These are the **foundation** -- the **core documents centred on the call to holi
   - *Inter Mirifica* Decree on the Media of Social Communications
 
 
-***
+---
 
 #### Footnotes:
 
 [^1]: In the Catholic sense, "dogmatic" refers to truths contained in divine revelation (Scripture and Tradition) that the Church’s Magisterium has formally proclaimed as infallible, binding, and unchangeable. It signifies a divinely revealed teaching that must be believed by the faithful, such as the Trinity or the Incarnation.
 
---------------------------
+---
 <!-- [vaticanII-timeline|Vatican II Timeline]]
 [[vaticanII-overview|Overview of Vatican II]]
 

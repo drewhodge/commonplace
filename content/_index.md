@@ -4,4 +4,4 @@ description = "Notes and essays on theology, philosophy, classics, and mathemati
 sort_by = "weight"
 +++
 
-Notes and essays on classics, mathematics, philosophy, and mathematics.
+Notes and essays on classics, mathematics, philosophy, and theology.

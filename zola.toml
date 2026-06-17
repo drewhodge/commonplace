@@ -16,5 +16,6 @@ build_search_index = false
 # Put all your custom variables here
 menu = [
     { name = "Home", url = "/" },
-    { name = "About", url = "/about" }
+    { name = "About", url = "/about" },
+    { name = "Colophon", url = "/colophon"}
 ]

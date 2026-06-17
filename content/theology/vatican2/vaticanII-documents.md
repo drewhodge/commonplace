@@ -18,9 +18,9 @@ These are the **foundation**, the **core documents centred on the call to holine
 
 ## Declarations
 
-- *Gravissimum Educationes* Declaration in Christian Education
+- *Gravissimum Educationes* Declaration on Christian Education
 - *Nostra Aetate* Declaration on the Relation of the Church to Non-Christian Denominations 
-- *Dignitatis Humanae* Declaration in Religious Freedom
+- *Dignitatis Humanae* Declaration on Religious Freedom
 
 ## Decrees
 
